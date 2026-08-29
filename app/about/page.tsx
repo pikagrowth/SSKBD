@@ -191,7 +191,12 @@ export default function AboutPage() {
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold mb-8 tracking-tight text-white">
-            Building Legacies, <br className="hidden md:block" />
+            SHREE SAMARTH KRUPA BUILDERS & DEVELOPERS
+            <br className="hidden md:block" />
+            <span className="text-brand-primaryLight">
+              Building Legacies, <br className="hidden md:block" />
+            </span>
+            
             <span className="text-brand-primaryLight">
               Delivering Trust
             </span>
@@ -199,7 +204,7 @@ export default function AboutPage() {
 
           {/* Company profile description — sits directly below the title */}
           <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed font-light drop-shadow">
-            {BUSINESS_DETAILS.name} is a Panvel-based real estate development company built on 20+ years of hands-on construction experience. What began as one man's work on the ground in Karanjade has grown into a company with an in-house RMC plant, its own equipment fleet, and a portfolio spanning completed, ongoing, and upcoming residential and redevelopment projects across Panvel and Navi Mumbai. Today, we are widely recognised as Panvel's leading name in redevelopment — trusted with projects other builders considered too difficult to take on.
+            {BUSINESS_DETAILS.name} is a Panvel-based real estate development company built on 30+ years of hands-on construction experience. What began as one man's work on the ground in Karanjade has grown into a company with an in-house RMC plant, its own equipment fleet, and a portfolio spanning completed, ongoing, and upcoming residential and redevelopment projects across Panvel and Navi Mumbai. Today, we are widely recognised as Panvel's leading name in redevelopment — trusted with projects other builders considered too difficult to take on.
           </p>
         </div>
       </section>
