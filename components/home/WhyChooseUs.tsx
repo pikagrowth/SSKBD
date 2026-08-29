@@ -43,7 +43,7 @@ export function WhyChooseUs() {
           {/* Left Side: Content & Image */}
           <div className="lg:w-1/3 text-left">
             <span className="inline-block py-1.5 px-4 rounded-full bg-brand-primary/10 text-brand-primary border border-brand-primary/20 text-xs font-bold tracking-widest mb-6 uppercase shadow-sm">
-              The SSKBD Promise
+              The Shree Samarth Krupa Builders & Developers Promise
             </span>
             <h2 className="text-4xl md:text-5xl font-extrabold text-brand-text tracking-tight mb-6 transition-colors leading-tight">
               Why Choose {BUSINESS_DETAILS.shortName}?

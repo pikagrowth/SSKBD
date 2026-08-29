@@ -17,7 +17,7 @@ export const ThankYouRedirect = () => {
         </h1>
         
         <p className="text-gray-600 mb-8 leading-relaxed transition-colors duration-300">
-          We have received your details. A member of the SSKBD team will reach out to you shortly to assist with your requirements.
+          We have received your details. A member of the Shree Samarth Krupa Builders & Developers  team will reach out to you shortly to assist with your requirements.
         </p>
         
         <Link href="/">

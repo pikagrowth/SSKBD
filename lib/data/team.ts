@@ -10,7 +10,7 @@ export const team: TeamMember[] = [
   {
     name: "Mansi Shelar",
     role: "Co-Founder",
-    bio: "Co-founder and strategic partner, Mansi oversees brand direction and client relationships, ensuring every SSKBD project reflects the same standard of quality and transparency the company was built on."
+    bio: "Co-founder and strategic partner, Mansi oversees brand direction and client relationships, ensuring every Shree Samarth Krupa Builders & Developers project reflects the same standard of quality and transparency the company was built on."
   },
   {
     name: "Tanaji Shankar Shelar",
@@ -20,21 +20,16 @@ export const team: TeamMember[] = [
   {
     name: "Karna Shankar Shelar",
     role: "Operations",
-    bio: "Working alongside the operations team, Karna focuses on construction quality and day-to-day site supervision, ensuring every stage meets SSKBD's build standards."
+    bio: "Working alongside the operations team, Karna focuses on construction quality and day-to-day site supervision, ensuring every stage meets Shree Samarth Krupa Builders & Developers's build standards."
   },
   {
     name: "Ninad Mumbaikar",
     role: "Administration",
-    bio: "Managing documentation, compliance, and regulatory coordination, Ninad ensures every SSKBD project is backed by clean paperwork and legal clarity for buyers."
-  },
-  {
-    name: "Pallavi Mumbaikar",
-    role: "Accounts",
-    bio: "Overseeing company finances and buyer payment schedules, Pallavi brings transparency to every transaction, a core part of SSKBD's promise to its customers."
+    bio: "Managing documentation, compliance, and regulatory coordination, Ninad ensures every Shree Samarth Krupa Builders & Developers project is backed by clean paperwork and legal clarity for buyers."
   },
   {
     name: "Krishna Patil",
     role: "Sales",
-    bio: "The primary point of contact for prospective buyers, Krishna manages site visits, client queries, and closings, bridging SSKBD's projects with the families who'll call them home."
+    bio: "The primary point of contact for prospective buyers, Krishna manages site visits, client queries, and closings, bridging Shree Samarth Krupa Builders & Developers's projects with the families who'll call them home."
   }
 ];

@@ -58,7 +58,7 @@ const generateEmailHTML = (title: string, accentColor: string, fields: { label: 
           <!-- Footer -->
           <div style="background-color: #f9fafa; padding: 20px; text-align: center; border-top: 1px solid #f0f0f0;">
             <p style="margin: 0; font-size: 12px; color: #999999;">
-              Securely generated via SSKBD Website<br/>
+              Securely generated via Shree Samarth Krupa Builders & Developers Website<br/>
               ${new Date().toLocaleString("en-IN", { timeZone: "Asia/Kolkata" })}
             </p>
           </div>

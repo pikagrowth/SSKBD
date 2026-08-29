@@ -24,10 +24,9 @@ export const metadata: Metadata = {
     template: `%s | ${BUSINESS_DETAILS.name}`,
     default: `${BUSINESS_DETAILS.name} | Building Legacies, Delivering Trust`,
   },
-  description: "Shree Samarth Krupa Builders & Developers (SSKBD). Panvel and Navi Mumbai's trusted real estate developers, committed to delivering quality residential and commercial spaces on time.",
+  description: "Shree Samarth Krupa Builders & Developers. Panvel and Navi Mumbai's trusted real estate developers, committed to delivering quality residential and commercial spaces on time.",
   keywords: [
     "Shree Samarth Krupa Builders & Developers",
-    "SSKBD",
     "Panvel builders",
     "Navi Mumbai real estate developers",
     "Shravan Siddhant Old Panvel",

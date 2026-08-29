@@ -17,7 +17,7 @@ export const projects: Project[] = [
       "15 premium retail shops for local businesses",
       "2 dedicated commercial units",
       "Prime location in Old Panvel with robust connectivity",
-      "Built with SSKBD's standard of on-time delivery and structural excellence"
+      "Built with Shree Samarth Krupa Builders & Developers's standard of on-time delivery and structural excellence"
     ],
     images: [
       "/images/projects/shravan-siddhant-1.jpeg",
@@ -45,15 +45,15 @@ export const projects: Project[] = [
     ]
   },
   {
-    title: "Nimit Parle",
-    slug: "nimit-parle",
+    title: "Nimit Park",
+    slug: "nimit-park",
     category: "Residential",
     status: "Completed",
-    location: "Karanjade",
-    priceRange: "50 Lakh",
+    location: "Thana Naka",
+    priceRange: "Not Available",
     configuration: "1 & 2 BHK",
     fastSelling: false,
-    description: "Nimit Parle project, year completed, and its overall quality.",
+    description: "Nimit Park project, year completed, and its overall quality.",
     highlights: [
       "Coming Soon",
       "Coming Soon",
@@ -68,8 +68,8 @@ export const projects: Project[] = [
     slug: "shri-samarth-prasad",
     category: "Residential",
     status: "Completed",
-    location: "Thana Naka",
-    priceRange: "60 Lakh",
+    location: "Karanjade",
+    priceRange: "Not Available",
     configuration: "2 BHK",
     fastSelling: false,
     description: "Shri Samarth Prasad project, year completed, and its amenities.",
@@ -87,7 +87,7 @@ export const projects: Project[] = [
     slug: "leela-madhav",
     category: "Residential",
     status: "Upcoming",
-    location: "Panvel",
+    location: "Orion Mall, Panvel",
     priceRange: "Coming Soon",
     configuration: "Coming Soon",
     fastSelling: false,
@@ -105,7 +105,7 @@ export const projects: Project[] = [
     slug: "panvel-plaza",
     category: "Commercial",
     status: "Upcoming",
-    location: "Coming Soon",
+    location: "Panvel",
     priceRange: "Coming Soon",
     configuration: "Coming Soon",
     fastSelling: false,

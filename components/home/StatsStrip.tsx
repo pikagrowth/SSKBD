@@ -5,10 +5,10 @@ import React from "react";
 export const StatsStrip = () => {
   // Builder-appropriate stats
   const stats = [
-    { label: "Years of Trust", value: "15+" },
-    { label: "Projects Delivered", value: "4+" },
+    { label: "Years of Trust", value: "30+" },
+    { label: "Flats Sold", value: "300+" },
+    { label: "Commericial Shops & Office Sold", value: "130+" },
     { label: "Upcoming Projects", value: "4+" },
-    { label: "Happy Families", value: "150+" },
   ];
 
   return (

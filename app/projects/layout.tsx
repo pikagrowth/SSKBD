@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     "Shravan Siddhant Old Panvel",
     "Flats in Panvel",
     "Commercial properties Navi Mumbai",
-    "SSKBD portfolio",
+    "Shree Samarth Krupa Builders & Developers portfolio",
     "Builders in Panvel"
   ],
   alternates: {
