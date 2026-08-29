@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: `Company Profile | ${BUSINESS_DETAILS.name}`,
-    description: "25+ years of construction experience, an in-house material supply chain, and Panvel's most trusted name in redevelopment.",
+    description: "35+ years of construction experience, an in-house material supply chain, and Panvel's most trusted name in redevelopment.",
     url: "/about",
     siteName: BUSINESS_DETAILS.name,
     type: "profile",
@@ -87,8 +87,8 @@ const storyTimeline = [
   },
   {
     marker: "Today",
-    title: "25 Years of Experience, Still Building",
-    description: "With Mangesh Shelar now carrying 25 years of hands-on experience, an in-house equipment fleet, and a dedicated leadership team behind him, the company continues to expand its footprint of residential and redevelopment projects across Panvel and Navi Mumbai.",
+    title: "30 Years of Experience, Still Building",
+    description: "With Mangesh Shelar now carrying 30 years of hands-on experience, an in-house equipment fleet, and a dedicated leadership team behind him, the company continues to expand its footprint of residential and redevelopment projects across Panvel and Navi Mumbai.",
     icon: <TrendingUp className="w-6 h-6 text-white" />
   }
 ];
@@ -134,7 +134,7 @@ export default function AboutPage() {
   // partner (operational scale, self-sufficiency). Big, bold, high-contrast —
   // not buried inside a card title.
   const statHighlights = [
-    { value: "25+", label: "Years of Experience", icon: <Clock className="w-6 h-6 text-brand-primary" /> },
+    { value: "30+", label: "Years of Experience", icon: <Clock className="w-6 h-6 text-brand-primary" /> },
     { value: `${totalProjects}+`, label: "Projects", icon: <Building2 className="w-6 h-6 text-brand-primary" /> },
     { value: "1", label: "In-House RMC Plant", icon: <Factory className="w-6 h-6 text-brand-primary" /> },
     { value: "4", label: "Excavators", icon: <HardHat className="w-6 h-6 text-brand-primary" /> },
@@ -199,7 +199,7 @@ export default function AboutPage() {
 
           {/* Company profile description — sits directly below the title */}
           <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed font-light drop-shadow">
-            {BUSINESS_DETAILS.name} is a Panvel-based real estate development company built on 25+ years of hands-on construction experience. What began as one man's work on the ground in Karanjade has grown into a company with an in-house RMC plant, its own equipment fleet, and a portfolio spanning completed, ongoing, and upcoming residential and redevelopment projects across Panvel and Navi Mumbai. Today, we are widely recognised as Panvel's leading name in redevelopment — trusted with projects other builders considered too difficult to take on.
+            {BUSINESS_DETAILS.name} is a Panvel-based real estate development company built on 20+ years of hands-on construction experience. What began as one man's work on the ground in Karanjade has grown into a company with an in-house RMC plant, its own equipment fleet, and a portfolio spanning completed, ongoing, and upcoming residential and redevelopment projects across Panvel and Navi Mumbai. Today, we are widely recognised as Panvel's leading name in redevelopment — trusted with projects other builders considered too difficult to take on.
           </p>
         </div>
       </section>
