@@ -47,9 +47,9 @@ export const Header = () => {
           <div className="flex justify-between items-center transition-all duration-300 ease-in-out h-14 md:h-16">
             
             {/* OVERHANGING LOGO TRICK */}
-            <Link href="/" className="flex items-center gap-3 z-50 group">
+            <Link href="/" className="flex items-center gap-2 sm:gap-3 z-50 group max-w-[75%] sm:max-w-none">
               {/* Negative margins (-my-4) allow the logo to be bigger than the navbar without stretching it */}
-              <div className="relative w-16 h-16 md:w-20 md:h-18 -my-2 md:-my-4 group-hover:scale-105 transition-transform duration-300">
+              <div className="relative shrink-0 w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 -my-2 md:-my-4 group-hover:scale-105 transition-transform duration-300">
                 <Image 
                   src="/images/brand/logo-full.png" 
                   alt={`${BUSINESS_DETAILS.name} Logo`}
@@ -58,9 +58,9 @@ export const Header = () => {
                   className="object-contain drop-shadow-md"
                 />
               </div>
-              <div className="hidden sm:block">
-                <h1 className="font-extrabold text-lg md:text-xl text-brand-text leading-tight tracking-tight transition-colors duration-300 group-hover:text-brand-primary">
-                  Shree Samarth Krupa Builders & Developers
+              <div className="block flex-1">
+                <h1 className="font-extrabold text-[13px] sm:text-lg md:text-xl text-brand-text leading-[1.2] sm:leading-tight tracking-tight transition-colors duration-300 group-hover:text-brand-primary">
+                  Shree Samarth Krupa <span className="block sm:inline">Builders & Developers</span>
                 </h1>
               </div>
             </Link>

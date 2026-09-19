@@ -35,7 +35,7 @@ export const FeaturedProject = () => {
           
           {/* Invisible Link covering the entire card to make it clickable */}
           <Link 
-            href="/projects/shravan-siddhant" 
+            href="/projects/shravan-siddhant-1.jpeg" 
             className="absolute inset-0 z-10" 
             aria-label="View Shravan Siddhant Details"
           />
