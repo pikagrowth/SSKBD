@@ -242,7 +242,7 @@ export const PresentationVideo = ({ src }: { src: string }) => {
     }
   };
 
-  const toggleFullscreen = async (e?: React.MouseEvent) => {
+const toggleFullscreen = async (e?: React.MouseEvent) => {
     e?.stopPropagation();
     const container = containerRef.current;
     const video = videoRef.current;
@@ -262,9 +262,10 @@ export const PresentationVideo = ({ src }: { src: string }) => {
           return; // Native iOS player takes over, so exit here
         }
         
-        // Auto-Rotate to Landscape on Mobile
-        if (window.screen?.orientation?.lock) {
-          try { await window.screen.orientation.lock("landscape"); } catch (err) {}
+        // Auto-Rotate to Landscape on Mobile (TypeScript 'any' bypass)
+        const screenOrientation: any = window.screen?.orientation;
+        if (screenOrientation?.lock) {
+          try { await screenOrientation.lock("landscape"); } catch (err) {}
         }
       } else {
         if (document.exitFullscreen) {
@@ -272,7 +273,9 @@ export const PresentationVideo = ({ src }: { src: string }) => {
         } else if ((document as any).webkitExitFullscreen) {
           await (document as any).webkitExitFullscreen();
         }
-        if (window.screen?.orientation?.unlock) window.screen.orientation.unlock();
+        
+        const screenOrientation: any = window.screen?.orientation;
+        if (screenOrientation?.unlock) screenOrientation.unlock();
       }
     } catch (error) {
       console.error("Fullscreen error:", error);
